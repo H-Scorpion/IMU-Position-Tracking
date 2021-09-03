@@ -5,6 +5,7 @@ class Receiver:
 
     def __init__(self):
         super().__init__()
+        # self.HOST = ''   # use '' to expose to all networks
         self.HOST = ''   # use '' to expose to all networks
         self.PORT = 20550
 

@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: 当前文件",
+            "name": "Python: main",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "D:\\01-士賢\\01-大學課程\\98-專題\\吳瑞北教授\\imu_positioning\\IMU-Position-Tracking\\main.py",
             "console": "integratedTerminal"
         }
     ]

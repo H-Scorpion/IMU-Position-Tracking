@@ -330,7 +330,9 @@ def receive_data(mode='tcp'):
 
 def plot_trajectory():
     tracker = IMUTracker(sampling=100)
+    print('receive data ...')
     data = receive_data('file')    # toggle data source between 'tcp' and 'file' here
+    # data = receive_data('tcp')    # toggle data source between 'tcp' and 'file' here
 
     print('initializing...')
     init_list = tracker.initialize(data[5:30])
